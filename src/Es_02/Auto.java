@@ -11,28 +11,46 @@ public class Auto {
         this.engineCapacity = engineCapacity;
         this.licencePlate = licencePlate;
     }
+
     public String getBrand() {
         return brand;
     }
+
     public void setBrand(String newBrand) {
         this.brand = newBrand;
     }
+
     public String getModel() {
         return model;
     }
+
     public void setModel(String newModel) {
         this.model = newModel;
     }
+
     public int getEngineCapacity() {
         return engineCapacity;
     }
+
     public void setEngineCapacity(int newEngineCapacity) {
         this.engineCapacity = newEngineCapacity;
     }
+
     public String getLicencePlate() {
         return licencePlate;
     }
+
     public void setLicencePlate(String newLicencePlate) {
         this.licencePlate = newLicencePlate;
+    }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", engineCapacity=" + engineCapacity +
+                ", licencePlate='" + licencePlate + '\'' +
+                '}';
     }
 }
