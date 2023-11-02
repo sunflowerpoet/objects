@@ -14,10 +14,13 @@ public class Es_03 {
      car.setModel("Yaris Hybrid");
      car.setEngineCapacity(1469);
      car.setLicencePlate("AB123CD");
-     
+
      System.out.println("Brand: " + car.getBrand());
      System.out.println("Model: " + car.getModel());
      System.out.println("Engine capacity: " + car.getEngineCapacity());
      System.out.println("Licence plate: " + car.getLicencePlate());
     }
 }
+
+// NON SONO SICURA AL 100% DI AVERERE FATTO L'ESERCIZIO GIUSTO,IN QUANTO NON PENSO DI AVERE CAPITO MOTLO BENE LA PARTE
+// DEL RENDERE ACCESSIBILI LE PROPRIETA ATTRAVERSO I METODI. SPERO COMUQNUE DI AVERE CAPITO ALMENO IL PRINCIPIO :)
